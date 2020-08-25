@@ -1,0 +1,86 @@
+html, body {
+    height: 100vh;
+}
+
+h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 70px;
+
+    /* or 130% */
+    text-align: center;
+}
+
+
+h5 {
+    /* header/h5 */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+
+    /* identical to box height */
+    text-align: center;
+}
+
+.large {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 170.23%;
+    
+    /* or 34px */
+}
+
+.primary {
+    color: #0084F8;
+}
+
+.secondary {
+    color: #52616B;
+}
+
+.welcome-left, .welcome-right {
+    height: 100vh;
+    padding: 5%;
+}
+
+.welcome-left {
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #0084F8 0%, #00C6FF 100%);
+    color: #FFFFFF;
+}
+
+.welcome-left h1  {
+    color: #FFFFFF;
+}
+
+.welcome-line {
+    width:50%; border-color:#ffffff; border-width: 1px; margin:40px auto;
+}
+
+.welcome-img {
+   width:80%;
+   margin:40px 10%;
+   overflow: hidden;
+}
+
+.welcome-right-header {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 81px;
+    margin-bottom: 32px;
+}
+
+.btn-bugreport {
+    position:absolute;
+    right:80px;
+    bottom:48px;
+}
